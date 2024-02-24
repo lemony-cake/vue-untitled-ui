@@ -1,13 +1,13 @@
 {
   "name": "vue-untitled-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "main": "./dist/vue-untitled-ui.umd.cjs",
   "module": "./dist/vue-untitled-ui.js",
   "files": [
-		"dist",
-		"README.md"
-	],
+    "dist",
+    "README.md"
+  ],
   "exports": {
     ".": {
       "import": "./dist/vue-untitled-ui.js",
@@ -16,16 +16,16 @@
     "./style.css": "./dist/style.css"
   },
   "repository": {
-		"type": "git",
-		"url": "https://github.com/lemony-cake/vue-untitled-ui.git"
-	},
+    "type": "git",
+    "url": "git+https://github.com/lemony-cake/vue-untitled-ui.git"
+  },
   "bugs": {
-		"url": "https://github.com/lemony-cake/vue-untitled-ui/issues"
-	},
+    "url": "https://github.com/lemony-cake/vue-untitled-ui/issues"
+  },
   "homepage": "https://lemony-cake.github.io/vue-untitled-ui/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -39,13 +39,13 @@
     "vue-tsc": "^1.8.27"
   },
   "keywords": [
-		"vue",
-		"vue-untitled-ui",
-		"untitled-ui"
-	],
-	"author": {
-		"name": "Maya",
-		"email": "papaya.dev@protonmail.com"
-	},
-	"license": "MIT"
+    "vue",
+    "vue-untitled-ui",
+    "untitled-ui"
+  ],
+  "author": {
+    "name": "Maya",
+    "email": "papaya.dev@protonmail.com"
+  },
+  "license": "MIT"
 }

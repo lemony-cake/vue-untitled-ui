@@ -12,7 +12,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "outDir": "dist", 
-    "declaration": true,
+    "noEmit": true,
 
     /* Linting */
     "strict": true,
