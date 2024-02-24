@@ -1,10 +1,15 @@
 <template>
-  <div>
-    <p class="typography-display-2xl">Display 2xl</p>
-  </div>
+	<div>
+		<Typography 
+			variant="display-2xl" 
+		>
+			Hello
+		</Typography>
+	</div>
 </template>
 
 <script setup lang="ts">
+import Typography from './components/shared/Typography.vue'
 </script>
 
 <style scoped>
