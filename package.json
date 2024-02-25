@@ -1,6 +1,6 @@
 {
   "name": "vue-untitled-ui",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "type": "module",
   "main": "./dist/vue-untitled-ui.umd.cjs",
   "module": "./dist/vue-untitled-ui.js",
@@ -10,6 +10,7 @@
   ],
   "exports": {
     ".": {
+      "types": "./dist/main.d.ts",
       "import": "./dist/vue-untitled-ui.js",
       "require": "./dist/vue-untitled-ui.umd.cjs"
     },
@@ -25,13 +26,15 @@
   "homepage": "https://lemony-cake.github.io/vue-untitled-ui/",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && vue-tsc --declaration --emitDeclarationOnly",
+    "types": "vue-tsc ",
     "preview": "vite preview"
   },
   "dependencies": {
     "vue": "^3.4.19"
   },
   "devDependencies": {
+    "@types/node": "^20.11.20",
     "@vitejs/plugin-vue": "^5.0.4",
     "less": "^4.2.0",
     "typescript": "^5.2.2",

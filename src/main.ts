@@ -1,6 +1,8 @@
-import { createApp } from 'vue'
-import './style.css'
+// Export components for NPM library
 import './foundations/typography.less'
-import App from './App.vue'
 
-createApp(App).mount('#app')
+import Typography from "./components/shared/Typography.vue"
+
+export {
+    Typography
+}

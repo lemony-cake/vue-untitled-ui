@@ -46,9 +46,9 @@ const props = defineProps({
 })
 
 const variantStyleName = computed(() => {
-    return "typography-" + props.variant
+    return "vui-typography-" + props.variant
 })
 const weightStyleName = computed(() => {
-    return "typography-weight-" + props.weight
+    return "vui-typography-weight-" + props.weight
 })
 </script>
