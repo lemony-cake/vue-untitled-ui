@@ -1,8 +1,9 @@
 // Export components for NPM library
-import './foundations/typography.less'
 
 import Typography from "./components/shared/Typography.vue"
+import Button from './components/shared/Button.vue'
 
 export {
-    Typography
+    Typography,
+    Button
 }
